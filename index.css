@@ -1,0 +1,49 @@
+body {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("shapelined-_JBKdviweXI-unsplash.jpg");
+}
+
+.container{
+    background-color: #036d6d;
+    width: 30rem;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+h1 {
+    text-shadow: 0px 3px 0px black;
+    line-height: 24px;
+    transform: rotate(-9deg);
+}
+
+#stage {
+    width: 100%;
+    height: 60px;
+    padding: 30px 0;
+    font-size: 50px;
+    margin: 0;
+}
+
+button {
+    margin: 20px;
+    cursor: pointer;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background: #038a25;
+    color: white;
+    font-family: inherit;
+    font-size: 20px
+}
